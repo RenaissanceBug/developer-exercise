@@ -12,7 +12,7 @@ class Exercise
     if w =~ /^\w+$/
         return w =~ /^[A-Z]/ ? "Marklar" : "marklar"
     else
-        return w # w is a non-word of length > 4, e.g. "??!?"
+        return w # w is a non-word of length > 4, e.g. "??!??"
     end
   end
 
